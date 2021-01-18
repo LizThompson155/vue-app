@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <localizationDictionary culture="en">
   <texts>
-    <text name="HomePage" value="Home page" />
+    <text name="HomePage" value="Home" />
     <text name="About" value="About" />
-    <text name="WelcomeMessage" value="Welcome to VueApp!" />
-    <text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
+    <text name="WelcomeMessage" value="Welcome to JBBC!" />
+	<text name="UserNamePlaceholder" value="Username" />
+	<text name="PasswordPlaceholder" value="Password" />
+    <text name="AppName" value="JBBC" />
+
+	<text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
     <text name="TenantNameCanNotBeEmpty" value="Tenant name can not be empty" />
     <text name="InvalidUserNameOrPassword" value="Invalid user name or password" />
     <text name="ThereIsNoTenantDefinedWithName{0}" value="There is no tenant defined with name {0}" />
