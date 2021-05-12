@@ -4,11 +4,11 @@
     <text name="HomePage" value="Home" />
     <text name="About" value="About" />
     <text name="WelcomeMessage" value="Welcome to JBBC!" />
-	<text name="UserNamePlaceholder" value="Username" />
-	<text name="PasswordPlaceholder" value="Password" />
+	  <text name="UserNamePlaceholder" value="Username" />
+	  <text name="PasswordPlaceholder" value="Password" />
     <text name="AppName" value="JBBC" />
 
-	<text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
+	  <text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
     <text name="TenantNameCanNotBeEmpty" value="Tenant name can not be empty" />
     <text name="InvalidUserNameOrPassword" value="Invalid user name or password" />
     <text name="ThereIsNoTenantDefinedWithName{0}" value="There is no tenant defined with name {0}" />
@@ -37,7 +37,7 @@
     <text name="AdminPassword" value="Admin password" />
     <text name="Save" value="Save" />
     <text name="Cancel" value="Cancel" />
-    <text name="TenantName_Regex_Description" value="Tenant name must be at least 2 chars, starts with a letter and continue with letter, number, dash or underscore." />
+    <text name="TenantName_Regex_Description" value="Tenant name must be at least 2 characters, starts with a letter and continue with letter, number, dash or underscore." />
     <text name="DefaultPasswordIs" value="Default password is {0}" />
     <text name="CanBeEmptyToLoginAsHost" value="Can be empty to login as host." />
     <text name="Register" value="Register" />
@@ -49,7 +49,7 @@
     <text name="RegisterFormUserNameInvalidMessage">Please don't enter an email address for username.</text>
     <text name="DatabaseConnectionString" value="Database connection string" />
     <text name="Users" value="Users" />
-    <text name="IsActive" value="Is active" />
+    <text name="IsActive" value="Active" />
     <text name="FullName" value="Full name" />
     <text name="CreateNewUser" value="Create new user" />
     <text name="Yes" value="Yes" />

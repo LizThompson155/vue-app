@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Abp.Application.Services;
 using Abp.Authorization;
-using Abp.Domain.Entities;
 using Abp.Domain.Repositories;
 using Liz.VueApp.Authorization;
 using Liz.VueApp.Books;
@@ -16,7 +14,7 @@ namespace Liz.VueApp.Users
     {
         private readonly IRepository<Book> _bookRepository;
 
-        public BookAppService(
+        public BookAppService (
             IRepository<Book> bookRepository)
         {
             _bookRepository = bookRepository;
@@ -25,7 +23,7 @@ namespace Liz.VueApp.Users
         public async Task<List<BookDto>> GetBooks()
         {
             var books = await _bookRepository.GetAllListAsync();
-            return ObjectMapper.Map<List<BookDto>>(books);
+            return new List<BookDto>();
         }
     }
 }
