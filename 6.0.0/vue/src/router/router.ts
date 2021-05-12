@@ -19,6 +19,8 @@ declare global {
 import login from '../views/login.vue'
 import home from '../views/home/home.vue'
 import main from '../views/main.vue'
+import about from '../views/about.vue'
+
 
 export const locking = {
     path: '/locking',
@@ -40,20 +42,22 @@ export const otherRouters: Router = {
     meta: { title: 'ManageMenu' },
     component: main,
     children: [
-        { path: 'home', meta: { title: 'HomePage' }, name: 'home', component: () => import('../views/home/home.vue') }
+        { path: 'home', meta: { title: 'Home' }, name: 'home', component: () => import('../views/home/home.vue') }
     ]
 }
 export const appRouters: Array<Router> = [{
     path: '/setting',
     name: 'setting',
     permission: '',
-    meta: { title: 'ManageMenu' },
+    meta: { title: 'Manage' },
     icon: '&#xe68a;',
     component: main,
     children: [
         { path: 'user', permission: 'Pages.Users', meta: { title: 'Users' }, name: 'user', component: () => import('../views/setting/user/user.vue') },
         { path: 'role', permission: 'Pages.Roles', meta: { title: 'Roles' }, name: 'role', component: () => import('../views/setting/role/role.vue') },
-        { path: 'tenant', permission: 'Pages.Tenants', meta: { title: 'Tenants' }, name: 'tenant', component: () => import('../views/setting/tenant/tenant.vue') }
+        { path: 'tenant', permission: 'Pages.Tenants', meta: { title: 'Tenants' }, name: 'tenant', component: () => import('../views/setting/tenant/tenant.vue') },
+        { path: 'about', meta: { title: 'About' }, name: 'about', component: () => import('../views/about.vue') },
+        { path: 'index', meta: { title: 'Books' }, name: 'index', component: () => import('../views/books/index.vue') }
     ]
 }]
 export const routers = [
